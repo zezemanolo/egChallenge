@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Scrabbling con Zézé</title>
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
+</head>
+
+<body>
+    <h2>Can you make a word out of this?</h2>
+    <div id="letters" class="big-mono">
+        OPMARGR
+    </div>
+    <section id="guess-area">
+        <input type="text" id="word-guess">
+        <div id="game-message" class="notice">
+            Enter your first guess! - Zézé
+        </div>
+    </section>
+    <section>
+        <button onclick="checkGuess()">Guess</button>
+        <button onclick="shuffleLetters()">Shuffle</button>
+        <button onclick="randomLetters()">Random</button>
+    </section>
+
+    <script type="text/javascript" src="challenge.js"></script>
+</body>
+
+<footer>
+    <h3>Thank you for playing scrambledStrings!</h3>
+</footer>
+
+</html>
